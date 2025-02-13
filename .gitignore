@@ -1,0 +1,66 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django
+*.log
+*.pot
+*.pyc
+*.db
+*.sqlite3
+db.sqlite3
+/static/
+media/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+__pycache__/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Editor directories
+*.swp
+*.swo
+*~
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.cache.sqlite
+# dotenv files
+.env
+.env.*
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+
+# Ignore mypy type-checking
+.mypy_cache/
+.dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
